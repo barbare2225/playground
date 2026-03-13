@@ -48,4 +48,9 @@ public class Employee {
     public void setRole(String role) {
         this.role = role;
     }
+
+    public void print (){
+        System.out.println("Name: " + name);
+        System.out.println("Role: " + role);
+    }
 }
