@@ -36,4 +36,8 @@ public class Tax {
     public BigDecimal getTotal(){
         return this.price.multiply(new BigDecimal(this.location));
     }
+
+    public void printName(){
+        System.out.println("name is -"+" forgot it doesnt have name");
+    }
 }
