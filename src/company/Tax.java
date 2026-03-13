@@ -32,4 +32,7 @@ public class Tax {
     public void print(){
         System.out.println("Your tax is $" + this.price);
     }
+    public BigDecimal getTotal(){
+        return this.price.multiply(new BigDecimal(this.location));
+    }
 }
