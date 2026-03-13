@@ -38,7 +38,6 @@ public class Tax {
     }
 
     public void printName(){
-        System.out.println("name is -"+" forgot it doesnt have name");
         System.out.println("name is tax");
     }
 }
