@@ -29,7 +29,7 @@ public class Tax {
         this.location = location;
     }
 
-    public void print (){
+    public void print() {
         System.out.println("Tax: " + price);
     }
 }
