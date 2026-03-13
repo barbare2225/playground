@@ -28,4 +28,8 @@ public class Tax {
     public void setLocation(String location) {
         this.location = location;
     }
+
+    public void print(){
+        System.out.println("Your tax is $" + this.price);
+    }
 }
