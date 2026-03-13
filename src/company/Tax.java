@@ -45,4 +45,7 @@ public class Tax {
         System.out.println();
         System.out.println("name is -"+" forgot it doesnt have name");
     }
+    public void print2() {
+        System.out.println("stash test");
+    }
 }
