@@ -30,7 +30,8 @@ public class Tax {
     }
 
     public void print() {
-        System.out.println("Tax: " + price);
+        System.out.println("Tax price: " + price);
+        System.out.println("Tax location: " + location);
     }
 
     public BigDecimal getTotal(){
@@ -41,5 +42,12 @@ public class Tax {
         System.out.println("name is tax");
         System.out.println("Tax: " + price);
         System.out.println();
+        System.out.println("hi");
+        System.out.println("Tax: " + price);
+        System.out.println();
+        System.out.println("name is -"+" forgot it doesnt have name");
+    }
+    public void print2() {
+        System.out.println("stash test");
     }
 }
