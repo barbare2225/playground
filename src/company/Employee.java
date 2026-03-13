@@ -53,4 +53,9 @@ public class Employee {
         System.out.println("Name: " + name);
         System.out.println("Role: " + role);
     }
+
+    public void printEmployee(){
+        System.out.println("Name: " + name);
+        System.out.println("Role: " + role);
+    }
 }
