@@ -31,6 +31,7 @@ public class Tax {
 
     public void print() {
         System.out.println("Tax price: " + price);
+        System.out.println("Tax location: " + location);
     }
 
     public BigDecimal getTotal(){
